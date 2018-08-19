@@ -245,7 +245,7 @@ installVSFM
 
 function installSiftGPU () {
 
-	SIFT_GPU_SRC=http://wwwx.cs.unc.edu/~ccwu/cgi-bin/siftgpu.cgi
+	SIFT_GPU_SRC=https://github.com/pitzer/SiftGPU/archive/master.zip
 	SIFT_GPU_ZIP=sift_gpu.zip
 
     if [[ ! -f $SIFT_GPU_ZIP ]]; then
@@ -257,7 +257,7 @@ function installSiftGPU () {
         rm -fR SiftGPU
         unzip $SIFT_GPU_ZIP
     fi
-
+mv SiftGPU-master SiftGPU
 cd SiftGPU
 ####### makefile Patches
 	# echo "Changing SiftGPU GCC to Brews gcc-4.9"
