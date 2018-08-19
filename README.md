@@ -4,16 +4,16 @@
 Modified version of Dan Monaghan's original script to fix the following issues:
 - Sift GPU installer no longer works
 
-
+------
 Here's a quick guide on how to use the installer.
 
-1. Get the installer from the github page where it says "Download ZIP"... since you are here=]
+1. Download the complete project from Git.
 
-2. Go to your Downloads folder and you should see a directory called "VisualSFM_OS_X_Mavericks_Installer-master"
+2. Go to your Downloads folder and you should see a directory called "VisualSFM_OS_X_Installer"
 
 3. In Terminal, cd into that directory...  e.g.:  
 
-$ cd ~/Downloads/VisualSFM_OS_X_Mavericks_Installer-master/
+$ cd ~/Downloads/VisualSFM_OS_X_Installer/
 
 4. Execute the script ( no need to sudo )
 
@@ -33,4 +33,3 @@ $ sh vsfm_os_x_installer_mavericks.sh
 
 11.  All files are copied into the vsfm/bin directory that is ready to work with, just double click on VisualSFM, add it to your dock perhaps (only works in the far right hand part of the dock).
 
-12... stay tuned for updates, but that's pretty much the procedure in a nutshell.
