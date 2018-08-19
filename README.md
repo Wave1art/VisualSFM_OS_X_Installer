@@ -3,6 +3,8 @@
 
 Modified version of Dan Monaghan's original script to fix the following issues:
 - Sift GPU installer no longer works
+- libpba.so did not build
+- gcc compiler flags threw errrors when compiling with clang
 
 ------
 Here's a quick guide on how to use the installer.
