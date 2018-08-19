@@ -142,7 +142,7 @@ function installXcodeSelect () {
 
 
 echo ""
-echoGood "Dan Monaghan's VSFM and PMVS installer for OS X"
+echoGood "Dan Monaghan's VSFM and PMVS installer for OS X. Edited and fixed by wave1art."
 echo ""
 
 echo "About to check to see if you have the Brew Package Manager"
@@ -166,7 +166,7 @@ installXcodeSelect
 # check to see if we have the right XQuartz....
 
 echo "Checking we have the right version of XQuartz"
-xquartz="2.7.8"
+xquartz="2.7.11"
 echo ""
 cat /Applications/Utilities/XQuartz.app/Contents/Info.plist | awk '/<key>CFBundleShortVersionString<\/key>/{getline; print}' | grep $xquartz && xquartz_version_result="0" || echo xquartz_version_result="1"
 echo "xquartz_version_result=$xquartz_version_result"
