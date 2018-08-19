@@ -1,7 +1,8 @@
-VisualSFM_OS_X_Mavericks_Installer
-==================================
+# Visual SFM installer - for mac OS Mojave
 
-VisualSFM installer script for OS X Mavericks
+
+Modified version of Dan Monaghan's original script to fix the following issues:
+- Sift GPU installer no longer works
 
 
 Here's a quick guide on how to use the installer.
@@ -33,7 +34,3 @@ $ sh vsfm_os_x_installer_mavericks.sh
 11.  All files are copied into the vsfm/bin directory that is ready to work with, just double click on VisualSFM, add it to your dock perhaps (only works in the far right hand part of the dock).
 
 12... stay tuned for updates, but that's pretty much the procedure in a nutshell.
-
-Cheers,
-Dan Monaghan
-www.luckybulldozer.com
