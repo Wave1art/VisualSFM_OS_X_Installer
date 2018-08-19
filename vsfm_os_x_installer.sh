@@ -352,7 +352,7 @@ cd pba
 	R=$(echo -L/usr/lib -L/usr/include/sys/ | sed -e 's/\//\\\//g')
 	sed -i '' -e "s/${S}/${R}/" makefile_no_gpu
 
-cp ../patches/SparseBundleCPU.patch src/pba/
+cp -R ../patches/SparseBundleCPU.patch src/pba/
 cd src/pba
 patch < SparseBundleCPU.patch
 cd ../..
